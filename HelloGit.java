@@ -2,6 +2,7 @@ public class HelloGit
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello Git");
+        String name = args[0];
+        System.out.printf("Hello %s\n", name);
     }
 }
